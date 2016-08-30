@@ -84,6 +84,13 @@
         "tasksController": {
             "prototype": "montage/core/range-controller"
         },
+        "text": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "text"},
+                "value": "asdf"
+            }
+        },
         "title": {
             "prototype": "digit/ui/title.reel",
             "properties": {
@@ -97,6 +104,7 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <h1 data-montage-id="title"></h1>
+        <p data-montage-id="text"></p>
         <button data-montage-id="addTaskButton">
 
         </button>
